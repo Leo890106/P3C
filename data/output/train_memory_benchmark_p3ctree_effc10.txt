@@ -1,0 +1,116 @@
+
+
+Benchmark memory for P3CTree
+Memory efficiency: 10
+
+Begin:
+-------------------------------------------------------
+   3:         33553        1342120  core.prepr.Selector
+  70:            21            840  core.prepr.Attribute
+ 194:             1             80  core.prepr.CSVReader
+ 230:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 233:             2             48  core.prepr.Attribute$DATA_TYPE
+ 234:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 308:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total        222528        7686744
+7686744.0
+Consumed memory: 7.330650329589844 MB
+
+With top part of the global tree and instances from data:
+-------------------------------------------------------
+   7:         33553        1342120  core.prepr.Selector
+  13:          1163          27912  core.structure.Nodelist
+  31:           133           5320  core.structure.P3CNode
+  35:             1           4672  [Lcore.structure.INlist;
+  47:           132           3168  core.structure.InstGroup
+  76:            21            840  core.prepr.Attribute
+ 204:             1             80  core.prepr.CSVReader
+ 243:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 246:             2             48  core.prepr.Attribute$DATA_TYPE
+ 247:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 296:             1             32  core.structure.P3CTree
+ 318:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total      40662609     4385708240
+4.38570824E9
+Memory Difference: 4175.206657409668 MB
+808579.3400000001
+
+From number of instances: 850249
+Subtree 49 (level 2) built and the current Nlists updated:
+Memory Difference: 4191.244613647461 MB
+Current node count: 117813
+
+From number of instances: 1018906
+Subtree 50 (level 2) built and the current Nlists updated:
+Memory Difference: 4204.2880783081055 MB
+Current node count: 279495
+
+From number of instances: 1203050
+Subtree 51 (level 2) built and the current Nlists updated:
+Memory Difference: 4191.287956237793 MB
+Current node count: 209138
+
+From number of instances: 1497559
+Subtree 52 (level 2) built and the current Nlists updated:
+Memory Difference: 4213.658889770508 MB
+Current node count: 525353
+
+From number of instances: 1783343
+Subtree 53 (level 2) built and the current Nlists updated:
+Memory Difference: 4228.989143371582 MB
+Current node count: 592717
+
+From number of instances: 1856105
+Subtree 54 (level 2) built and the current Nlists updated:
+Memory Difference: 4214.428268432617 MB
+Current node count: 471422
+
+From number of instances: 2053636
+Subtree 55 (level 2) built and the current Nlists updated:
+Memory Difference: 4216.621536254883 MB
+Current node count: 493522
+
+From number of instances: 2108496
+Subtree 56 (level 2) built and the current Nlists updated:
+Memory Difference: 4185.530632019043 MB
+Current node count: 252187
+
+From number of instances: 2160794
+Subtree 57 (level 2) built and the current Nlists updated:
+Memory Difference: 4231.841735839844 MB
+Current node count: 784116
+
+From number of instances: 3929065
+Subtree 71 (level 7) built and the current Nlists updated:
+Memory Difference: 4239.094749450684 MB
+Current node count: 948698
+
+From number of instances: 3952678
+Subtree 89 (level 7) built and the current Nlists updated:
+Memory Difference: 4270.71452331543 MB
+Current node count: 1216981
+
+From number of instances: 2592612
+Subtree 114 (level 9) built and the current Nlists updated:
+Memory Difference: 4279.593124389648 MB
+Current node count: 983421
+
+From number of instances: 2953490
+Subtree 115 (level 9) built and the current Nlists updated:
+Memory Difference: 4322.800971984863 MB
+Current node count: 1402320
+P3C Tot (sum of P3C-related classes): 1.3203048706054688 MB
+
+
+--------------------------------------------
+The number of subtrees: 115
+Max node count: 1402320
+Max Memory Difference: 4322.800971984863 MB (include: a subtree built upon the top part, current Nlists, instances from data)
+Max instance count used to build a subtree: 3952678
+Used efficiency: 10
+Further recommended efficiency: 20
+Preprocessing time: 44082 ms
+tree construction time: 61773 ms
+n_list construction time: 9226 ms
+P3C Tot (from InfoBase) : 1.3203048706054688 MB
+1402320    9223372036854775807

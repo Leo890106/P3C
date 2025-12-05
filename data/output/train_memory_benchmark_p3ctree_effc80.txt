@@ -1,0 +1,721 @@
+
+
+Benchmark memory for P3CTree
+Memory efficiency: 80
+
+Begin:
+-------------------------------------------------------
+   3:         33553        1342120  core.prepr.Selector
+  71:            21            840  core.prepr.Attribute
+ 196:             1             80  core.prepr.CSVReader
+ 234:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 237:             2             48  core.prepr.Attribute$DATA_TYPE
+ 238:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 311:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total        223464        7736232
+7736232.0
+Consumed memory: 7.377845764160156 MB
+
+With top part of the global tree and instances from data:
+-------------------------------------------------------
+   6:         33553        1342120  core.prepr.Selector
+  13:          2242          89680  core.structure.P3CNode
+  14:          2241          53784  core.structure.InstGroup
+  16:          1163          27912  core.structure.Nodelist
+  37:             1           4672  [Lcore.structure.INlist;
+  78:            21            840  core.prepr.Attribute
+ 204:             1             80  core.prepr.CSVReader
+ 243:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 246:             2             48  core.prepr.Attribute$DATA_TYPE
+ 247:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 296:             1             32  core.structure.P3CTree
+ 317:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total      40671079     4376737672
+4.376737672E9
+Memory Difference: 4166.604461669922 MB
+101072.41750000001
+
+From number of instances: 115845
+Subtree 27 (level 2) built and the current Nlists updated:
+Memory Difference: 4174.818130493164 MB
+Current node count: 60478
+
+From number of instances: 121407
+Subtree 28 (level 2) built and the current Nlists updated:
+Memory Difference: 4175.379600524902 MB
+Current node count: 64923
+
+From number of instances: 128679
+Subtree 29 (level 2) built and the current Nlists updated:
+Memory Difference: 4173.74543762207 MB
+Current node count: 47121
+
+From number of instances: 133539
+Subtree 30 (level 2) built and the current Nlists updated:
+Memory Difference: 4170.511985778809 MB
+Current node count: 14983
+
+From number of instances: 138160
+Subtree 31 (level 2) built and the current Nlists updated:
+Memory Difference: 4174.109886169434 MB
+Current node count: 49952
+
+From number of instances: 140305
+Subtree 32 (level 2) built and the current Nlists updated:
+Memory Difference: 4174.222854614258 MB
+Current node count: 50159
+
+From number of instances: 166268
+Subtree 33 (level 2) built and the current Nlists updated:
+Memory Difference: 4174.970886230469 MB
+Current node count: 56540
+
+From number of instances: 169042
+Subtree 34 (level 2) built and the current Nlists updated:
+Memory Difference: 4173.289329528809 MB
+Current node count: 47486
+
+From number of instances: 176226
+Subtree 35 (level 2) built and the current Nlists updated:
+Memory Difference: 4181.555358886719 MB
+Current node count: 121077
+
+From number of instances: 201746
+Subtree 36 (level 2) built and the current Nlists updated:
+Memory Difference: 4174.204032897949 MB
+Current node count: 45778
+
+From number of instances: 235809
+Subtree 37 (level 2) built and the current Nlists updated:
+Memory Difference: 4182.182777404785 MB
+Current node count: 117985
+
+From number of instances: 276988
+Subtree 38 (level 2) built and the current Nlists updated:
+Memory Difference: 4190.159271240234 MB
+Current node count: 213944
+
+From number of instances: 290215
+Subtree 39 (level 2) built and the current Nlists updated:
+Memory Difference: 4176.416152954102 MB
+Current node count: 59582
+
+From number of instances: 324148
+Subtree 40 (level 2) built and the current Nlists updated:
+Memory Difference: 4181.029586791992 MB
+Current node count: 101284
+
+From number of instances: 334906
+Subtree 41 (level 2) built and the current Nlists updated:
+Memory Difference: 4193.147605895996 MB
+Current node count: 214381
+
+From number of instances: 347178
+Subtree 42 (level 2) built and the current Nlists updated:
+Memory Difference: 4191.551170349121 MB
+Current node count: 187182
+
+From number of instances: 384314
+Subtree 43 (level 2) built and the current Nlists updated:
+Memory Difference: 4198.63712310791 MB
+Current node count: 239710
+
+From number of instances: 406539
+Subtree 44 (level 2) built and the current Nlists updated:
+Memory Difference: 4177.190994262695 MB
+Current node count: 29950
+
+From number of instances: 419943
+Subtree 45 (level 2) built and the current Nlists updated:
+Memory Difference: 4189.128875732422 MB
+Current node count: 152031
+
+From number of instances: 451305
+Subtree 56 (level 7) built and the current Nlists updated:
+Memory Difference: 4190.58602142334 MB
+Current node count: 160236
+
+From number of instances: 461277
+Subtree 73 (level 7) built and the current Nlists updated:
+Memory Difference: 4197.413047790527 MB
+Current node count: 206432
+
+From number of instances: 200073
+Subtree 83 (level 7) built and the current Nlists updated:
+Memory Difference: 4187.152000427246 MB
+Current node count: 91933
+
+From number of instances: 498243
+Subtree 84 (level 7) built and the current Nlists updated:
+Memory Difference: 4192.000617980957 MB
+Current node count: 149409
+
+From number of instances: 112730
+Subtree 99 (level 8) built and the current Nlists updated:
+Memory Difference: 4180.235305786133 MB
+Current node count: 22755
+
+From number of instances: 427755
+Subtree 106 (level 10) built and the current Nlists updated:
+Memory Difference: 4178.887840270996 MB
+Current node count: 27401
+
+From number of instances: 368186
+Subtree 128 (level 9) built and the current Nlists updated:
+Memory Difference: 4178.837066650391 MB
+Current node count: 38237
+
+From number of instances: 319840
+Subtree 129 (level 9) built and the current Nlists updated:
+Memory Difference: 4184.062217712402 MB
+Current node count: 86162
+
+From number of instances: 402658
+Subtree 134 (level 5) built and the current Nlists updated:
+Memory Difference: 4181.137825012207 MB
+Current node count: 73485
+
+From number of instances: 197587
+Subtree 142 (level 8) built and the current Nlists updated:
+Memory Difference: 4178.57585144043 MB
+Current node count: 44400
+
+From number of instances: 178250
+Subtree 149 (level 13) built and the current Nlists updated:
+Memory Difference: 4175.713394165039 MB
+Current node count: 20586
+
+From number of instances: 320313
+Subtree 153 (level 13) built and the current Nlists updated:
+Memory Difference: 4176.545333862305 MB
+Current node count: 34447
+
+From number of instances: 359323
+Subtree 156 (level 6) built and the current Nlists updated:
+Memory Difference: 4187.637336730957 MB
+Current node count: 166930
+
+From number of instances: 481661
+Subtree 157 (level 6) built and the current Nlists updated:
+Memory Difference: 4189.67325592041 MB
+Current node count: 186705
+
+From number of instances: 204427
+Subtree 160 (level 8) built and the current Nlists updated:
+Memory Difference: 4179.264289855957 MB
+Current node count: 57547
+
+From number of instances: 388904
+Subtree 161 (level 8) built and the current Nlists updated:
+Memory Difference: 4180.365875244141 MB
+Current node count: 74301
+
+From number of instances: 229493
+Subtree 164 (level 5) built and the current Nlists updated:
+Memory Difference: 4180.86190032959 MB
+Current node count: 67008
+
+From number of instances: 213281
+Subtree 173 (level 8) built and the current Nlists updated:
+Memory Difference: 4184.430511474609 MB
+Current node count: 87925
+
+From number of instances: 138201
+Subtree 174 (level 8) built and the current Nlists updated:
+Memory Difference: 4183.586006164551 MB
+Current node count: 79215
+
+From number of instances: 365167
+Subtree 179 (level 12) built and the current Nlists updated:
+Memory Difference: 4181.912269592285 MB
+Current node count: 58016
+
+From number of instances: 144094
+Subtree 180 (level 12) built and the current Nlists updated:
+Memory Difference: 4181.913948059082 MB
+Current node count: 54393
+
+From number of instances: 334445
+Subtree 181 (level 10) built and the current Nlists updated:
+Memory Difference: 4181.394264221191 MB
+Current node count: 56896
+
+From number of instances: 149140
+Subtree 182 (level 10) built and the current Nlists updated:
+Memory Difference: 4180.210311889648 MB
+Current node count: 46733
+
+From number of instances: 179526
+Subtree 187 (level 3) built and the current Nlists updated:
+Memory Difference: 4182.080848693848 MB
+Current node count: 50555
+
+From number of instances: 276696
+Subtree 197 (level 7) built and the current Nlists updated:
+Memory Difference: 4181.956520080566 MB
+Current node count: 49224
+
+From number of instances: 116760
+Subtree 201 (level 8) built and the current Nlists updated:
+Memory Difference: 4184.278030395508 MB
+Current node count: 64179
+
+From number of instances: 148039
+Subtree 204 (level 9) built and the current Nlists updated:
+Memory Difference: 4184.114128112793 MB
+Current node count: 54506
+
+From number of instances: 153226
+Subtree 205 (level 10) built and the current Nlists updated:
+Memory Difference: 4181.603202819824 MB
+Current node count: 33553
+
+From number of instances: 331192
+Subtree 206 (level 10) built and the current Nlists updated:
+Memory Difference: 4179.306228637695 MB
+Current node count: 23291
+
+From number of instances: 221767
+Subtree 211 (level 13) built and the current Nlists updated:
+Memory Difference: 4184.371337890625 MB
+Current node count: 71043
+
+From number of instances: 286827
+Subtree 212 (level 13) built and the current Nlists updated:
+Memory Difference: 4183.763687133789 MB
+Current node count: 75711
+
+From number of instances: 139240
+Subtree 230 (level 7) built and the current Nlists updated:
+Memory Difference: 4185.555076599121 MB
+Current node count: 68248
+
+From number of instances: 243525
+Subtree 237 (level 9) built and the current Nlists updated:
+Memory Difference: 4183.542007446289 MB
+Current node count: 55854
+
+From number of instances: 102119
+Subtree 380 (level 15) built and the current Nlists updated:
+Memory Difference: 4180.930603027344 MB
+Current node count: 20416
+
+From number of instances: 434223
+Subtree 645 (level 19) built and the current Nlists updated:
+Memory Difference: 4175.999977111816 MB
+Current node count: 3901
+
+From number of instances: 114927
+Subtree 688 (level 16) built and the current Nlists updated:
+Memory Difference: 4174.975234985352 MB
+Current node count: 3430
+
+From number of instances: 143526
+Subtree 730 (level 20) built and the current Nlists updated:
+Memory Difference: 4173.326751708984 MB
+Current node count: 2762
+
+From number of instances: 232381
+Subtree 731 (level 20) built and the current Nlists updated:
+Memory Difference: 4172.411605834961 MB
+Current node count: 2771
+
+From number of instances: 142394
+Subtree 762 (level 20) built and the current Nlists updated:
+Memory Difference: 4170.9536209106445 MB
+Current node count: 2728
+
+From number of instances: 232947
+Subtree 763 (level 20) built and the current Nlists updated:
+Memory Difference: 4170.22696685791 MB
+Current node count: 2738
+
+From number of instances: 390508
+Subtree 778 (level 10) built and the current Nlists updated:
+Memory Difference: 4173.306228637695 MB
+Current node count: 59810
+
+From number of instances: 190172
+Subtree 792 (level 8) built and the current Nlists updated:
+Memory Difference: 4180.256652832031 MB
+Current node count: 120104
+
+From number of instances: 154296
+Subtree 805 (level 13) built and the current Nlists updated:
+Memory Difference: 4175.380928039551 MB
+Current node count: 62856
+
+From number of instances: 113801
+Subtree 831 (level 15) built and the current Nlists updated:
+Memory Difference: 4171.732032775879 MB
+Current node count: 20975
+
+From number of instances: 267065
+Subtree 834 (level 15) built and the current Nlists updated:
+Memory Difference: 4177.82536315918 MB
+Current node count: 86451
+
+From number of instances: 141586
+Subtree 835 (level 15) built and the current Nlists updated:
+Memory Difference: 4173.341064453125 MB
+Current node count: 39264
+
+From number of instances: 232728
+Subtree 836 (level 15) built and the current Nlists updated:
+Memory Difference: 4174.040084838867 MB
+Current node count: 49747
+
+From number of instances: 228559
+Subtree 840 (level 12) built and the current Nlists updated:
+Memory Difference: 4175.108955383301 MB
+Current node count: 65938
+
+From number of instances: 178761
+Subtree 841 (level 10) built and the current Nlists updated:
+Memory Difference: 4174.761619567871 MB
+Current node count: 49629
+
+From number of instances: 416185
+Subtree 843 (level 10) built and the current Nlists updated:
+Memory Difference: 4182.4974365234375 MB
+Current node count: 139812
+
+From number of instances: 153996
+Subtree 847 (level 5) built and the current Nlists updated:
+Memory Difference: 4176.992622375488 MB
+Current node count: 62971
+
+From number of instances: 128335
+Subtree 848 (level 5) built and the current Nlists updated:
+Memory Difference: 4179.679641723633 MB
+Current node count: 67442
+
+From number of instances: 297954
+Subtree 856 (level 7) built and the current Nlists updated:
+Memory Difference: 4189.297508239746 MB
+Current node count: 166023
+
+From number of instances: 250164
+Subtree 866 (level 12) built and the current Nlists updated:
+Memory Difference: 4184.241363525391 MB
+Current node count: 99698
+
+From number of instances: 446598
+Subtree 867 (level 12) built and the current Nlists updated:
+Memory Difference: 4182.766548156738 MB
+Current node count: 92316
+
+From number of instances: 119763
+Subtree 870 (level 9) built and the current Nlists updated:
+Memory Difference: 4187.4112548828125 MB
+Current node count: 114398
+
+From number of instances: 146989
+Subtree 872 (level 10) built and the current Nlists updated:
+Memory Difference: 4186.72696685791 MB
+Current node count: 113097
+
+From number of instances: 227582
+Subtree 983 (level 19) built and the current Nlists updated:
+Memory Difference: 4181.608528137207 MB
+Current node count: 53570
+
+From number of instances: 479995
+Subtree 986 (level 19) built and the current Nlists updated:
+Memory Difference: 4181.306091308594 MB
+Current node count: 63137
+
+From number of instances: 191108
+Subtree 987 (level 19) built and the current Nlists updated:
+Memory Difference: 4176.500274658203 MB
+Current node count: 4839
+
+From number of instances: 112157
+Subtree 1087 (level 20) built and the current Nlists updated:
+Memory Difference: 4177.703506469727 MB
+Current node count: 9300
+
+From number of instances: 112122
+Subtree 1089 (level 20) built and the current Nlists updated:
+Memory Difference: 4177.098930358887 MB
+Current node count: 9394
+
+From number of instances: 111221
+Subtree 1090 (level 20) built and the current Nlists updated:
+Memory Difference: 4176.227348327637 MB
+Current node count: 9362
+
+From number of instances: 110587
+Subtree 1091 (level 20) built and the current Nlists updated:
+Memory Difference: 4175.73030090332 MB
+Current node count: 9392
+
+From number of instances: 110030
+Subtree 1092 (level 20) built and the current Nlists updated:
+Memory Difference: 4175.152153015137 MB
+Current node count: 9355
+
+From number of instances: 111804
+Subtree 1093 (level 20) built and the current Nlists updated:
+Memory Difference: 4174.692199707031 MB
+Current node count: 9374
+
+From number of instances: 111096
+Subtree 1094 (level 20) built and the current Nlists updated:
+Memory Difference: 4174.193656921387 MB
+Current node count: 9373
+
+From number of instances: 110472
+Subtree 1095 (level 20) built and the current Nlists updated:
+Memory Difference: 4173.367782592773 MB
+Current node count: 9394
+
+From number of instances: 111577
+Subtree 1096 (level 20) built and the current Nlists updated:
+Memory Difference: 4172.754035949707 MB
+Current node count: 9344
+
+From number of instances: 422536
+Subtree 1105 (level 20) built and the current Nlists updated:
+Memory Difference: 4168.858657836914 MB
+Current node count: 3108
+
+From number of instances: 168966
+Subtree 1110 (level 3) built and the current Nlists updated:
+Memory Difference: 4174.318344116211 MB
+Current node count: 67427
+
+From number of instances: 213735
+Subtree 1116 (level 5) built and the current Nlists updated:
+Memory Difference: 4178.20458984375 MB
+Current node count: 104031
+
+From number of instances: 319286
+Subtree 1128 (level 9) built and the current Nlists updated:
+Memory Difference: 4173.465194702148 MB
+Current node count: 47046
+
+From number of instances: 125266
+Subtree 1129 (level 9) built and the current Nlists updated:
+Memory Difference: 4172.001953125 MB
+Current node count: 30083
+
+From number of instances: 175449
+Subtree 1133 (level 8) built and the current Nlists updated:
+Memory Difference: 4185.575981140137 MB
+Current node count: 161105
+
+From number of instances: 482538
+Subtree 1134 (level 8) built and the current Nlists updated:
+Memory Difference: 4187.03547668457 MB
+Current node count: 177195
+
+From number of instances: 452207
+Subtree 1148 (level 14) built and the current Nlists updated:
+Memory Difference: 4187.119873046875 MB
+Current node count: 151898
+
+From number of instances: 207954
+Subtree 1149 (level 14) built and the current Nlists updated:
+Memory Difference: 4183.9051513671875 MB
+Current node count: 105259
+
+From number of instances: 361497
+Subtree 1152 (level 12) built and the current Nlists updated:
+Memory Difference: 4184.655044555664 MB
+Current node count: 117807
+
+From number of instances: 281492
+Subtree 1154 (level 10) built and the current Nlists updated:
+Memory Difference: 4181.984100341797 MB
+Current node count: 86965
+
+From number of instances: 373300
+Subtree 1155 (level 10) built and the current Nlists updated:
+Memory Difference: 4178.116645812988 MB
+Current node count: 53092
+
+From number of instances: 190070
+Subtree 1181 (level 14) built and the current Nlists updated:
+Memory Difference: 4175.146560668945 MB
+Current node count: 26214
+
+From number of instances: 248936
+Subtree 1183 (level 14) built and the current Nlists updated:
+Memory Difference: 4176.276870727539 MB
+Current node count: 51519
+
+From number of instances: 112636
+Subtree 1184 (level 14) built and the current Nlists updated:
+Memory Difference: 4179.537521362305 MB
+Current node count: 76683
+
+From number of instances: 178644
+Subtree 1219 (level 15) built and the current Nlists updated:
+Memory Difference: 4172.695930480957 MB
+Current node count: 17897
+
+From number of instances: 499206
+Subtree 1262 (level 16) built and the current Nlists updated:
+Memory Difference: 4171.148704528809 MB
+Current node count: 24275
+
+From number of instances: 137994
+Subtree 1263 (level 15) built and the current Nlists updated:
+Memory Difference: 4173.635452270508 MB
+Current node count: 50074
+
+From number of instances: 308036
+Subtree 1274 (level 6) built and the current Nlists updated:
+Memory Difference: 4196.408447265625 MB
+Current node count: 247605
+
+From number of instances: 300205
+Subtree 1275 (level 6) built and the current Nlists updated:
+Memory Difference: 4197.2507400512695 MB
+Current node count: 240642
+
+From number of instances: 111602
+Subtree 1277 (level 4) built and the current Nlists updated:
+Memory Difference: 4179.870414733887 MB
+Current node count: 51378
+
+From number of instances: 167630
+Subtree 1278 (level 4) built and the current Nlists updated:
+Memory Difference: 4179.335884094238 MB
+Current node count: 48636
+
+From number of instances: 101566
+Subtree 1282 (level 6) built and the current Nlists updated:
+Memory Difference: 4185.313926696777 MB
+Current node count: 94394
+
+From number of instances: 432334
+Subtree 1283 (level 6) built and the current Nlists updated:
+Memory Difference: 4196.415954589844 MB
+Current node count: 199784
+
+From number of instances: 403785
+Subtree 1291 (level 7) built and the current Nlists updated:
+Memory Difference: 4208.925750732422 MB
+Current node count: 294181
+
+From number of instances: 124757
+Subtree 1297 (level 11) built and the current Nlists updated:
+Memory Difference: 4187.824974060059 MB
+Current node count: 61602
+
+From number of instances: 203514
+Subtree 1298 (level 11) built and the current Nlists updated:
+Memory Difference: 4203.897735595703 MB
+Current node count: 179614
+
+From number of instances: 394018
+Subtree 1301 (level 11) built and the current Nlists updated:
+Memory Difference: 4205.839797973633 MB
+Current node count: 192010
+
+From number of instances: 285963
+Subtree 1303 (level 9) built and the current Nlists updated:
+Memory Difference: 4201.855567932129 MB
+Current node count: 146436
+
+From number of instances: 270083
+Subtree 1304 (level 9) built and the current Nlists updated:
+Memory Difference: 4220.960037231445 MB
+Current node count: 305855
+
+From number of instances: 278739
+Subtree 1310 (level 12) built and the current Nlists updated:
+Memory Difference: 4199.739898681641 MB
+Current node count: 91837
+
+From number of instances: 196146
+Subtree 1326 (level 13) built and the current Nlists updated:
+Memory Difference: 4205.364898681641 MB
+Current node count: 121420
+
+From number of instances: 128261
+Subtree 1584 (level 16) built and the current Nlists updated:
+Memory Difference: 4196.640075683594 MB
+Current node count: 35940
+
+From number of instances: 109104
+Subtree 1585 (level 16) built and the current Nlists updated:
+Memory Difference: 4196.446250915527 MB
+Current node count: 35564
+
+From number of instances: 173846
+Subtree 1586 (level 16) built and the current Nlists updated:
+Memory Difference: 4194.009796142578 MB
+Current node count: 17968
+
+From number of instances: 136867
+Subtree 1588 (level 15) built and the current Nlists updated:
+Memory Difference: 4202.3906173706055 MB
+Current node count: 104716
+
+From number of instances: 146847
+Subtree 1594 (level 13) built and the current Nlists updated:
+Memory Difference: 4197.593437194824 MB
+Current node count: 60705
+
+From number of instances: 137589
+Subtree 1653 (level 16) built and the current Nlists updated:
+Memory Difference: 4196.510299682617 MB
+Current node count: 43909
+
+From number of instances: 478948
+Subtree 1905 (level 17) built and the current Nlists updated:
+Memory Difference: 4197.227096557617 MB
+Current node count: 55149
+
+From number of instances: 357269
+Subtree 1909 (level 10) built and the current Nlists updated:
+Memory Difference: 4215.499153137207 MB
+Current node count: 227214
+
+From number of instances: 407518
+Subtree 1929 (level 15) built and the current Nlists updated:
+Memory Difference: 4206.240913391113 MB
+Current node count: 147352
+
+From number of instances: 331328
+Subtree 1930 (level 15) built and the current Nlists updated:
+Memory Difference: 4201.049942016602 MB
+Current node count: 85591
+
+From number of instances: 153058
+Subtree 1983 (level 14) built and the current Nlists updated:
+Memory Difference: 4206.412887573242 MB
+Current node count: 96400
+
+From number of instances: 446108
+Subtree 1985 (level 14) built and the current Nlists updated:
+Memory Difference: 4216.3583908081055 MB
+Current node count: 220221
+
+From number of instances: 224457
+Subtree 2023 (level 15) built and the current Nlists updated:
+Memory Difference: 4209.186996459961 MB
+Current node count: 125063
+
+From number of instances: 401777
+Subtree 2025 (level 15) built and the current Nlists updated:
+Memory Difference: 4213.905326843262 MB
+Current node count: 174487
+P3C Tot (sum of P3C-related classes): 1.4490280151367188 MB
+
+
+--------------------------------------------
+The number of subtrees: 2027
+Max node count: 305855
+Max Memory Difference: 4220.960037231445 MB (include: a subtree built upon the top part, current Nlists, instances from data)
+Max instance count used to build a subtree: 499206
+Used efficiency: 80
+Further recommended efficiency: 161
+Preprocessing time: 39887 ms
+tree construction time: 71021 ms
+n_list construction time: 89678 ms
+P3C Tot (from InfoBase) : 1.4490280151367188 MB
+305855    9223372036854775807

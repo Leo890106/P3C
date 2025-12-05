@@ -1,0 +1,66 @@
+Total nodes of the PPCtree: 14363440
+
+
+Benchmark memory for PPCtree, encoded instances from data, Nlists
+
+Begin:
+-------------------------------------------------------
+   2:      14363440      574537600  core.structure.PPCNode
+   9:         33553        1342120  core.prepr.Selector
+  15:          1163          27912  core.structure.Nodelist
+  33:             1           4672  [Lcore.structure.INlist;
+  76:            21            840  core.prepr.Attribute
+ 201:             1             80  core.prepr.CSVReader
+ 238:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 241:             2             48  core.prepr.Attribute$DATA_TYPE
+ 242:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 312:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+ 319:             1             24  core.structure.PPCTree
+Total      76522821     5694474608
+5.694474608E9
+
+Without PPCtree:
+-------------------------------------------------------
+   6:         33553        1342120  core.prepr.Selector
+  13:          1163          27912  core.structure.Nodelist
+  32:             1           4672  [Lcore.structure.INlist;
+  73:            21            840  core.prepr.Attribute
+ 202:             1             80  core.prepr.CSVReader
+ 241:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 244:             2             48  core.prepr.Attribute$DATA_TYPE
+ 245:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 315:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total      40665308     4360955440
+4.36095544E9
+Memory Difference: 1271.7429809570312 MB
+
+Without encoded instance:
+-------------------------------------------------------
+   4:         33553        1342120  core.prepr.Selector
+  13:          1163          27912  core.structure.Nodelist
+  33:             1           4672  [Lcore.structure.INlist;
+  73:            21            840  core.prepr.Attribute
+ 202:             1             80  core.prepr.CSVReader
+ 243:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 246:             2             48  core.prepr.Attribute$DATA_TYPE
+ 247:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 316:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total        232051      181404216
+1.81404216E8
+Memory Difference: 3985.9306564331055 MB
+
+Without Nlists:
+-------------------------------------------------------
+   3:         33553        1342120  core.prepr.Selector
+  69:            21            840  core.prepr.Attribute
+ 198:             1             80  core.prepr.CSVReader
+ 239:             2             48  [Lcore.prepr.DataReader$DATA_FORMATS;
+ 242:             2             48  core.prepr.Attribute$DATA_TYPE
+ 243:             2             48  core.prepr.DataReader$DATA_FORMATS
+ 313:             1             24  [Lcore.prepr.Attribute$DATA_TYPE;
+Total        222713        7730728
+7730728.0
+Memory Difference: 165.62794494628906 MB
+
+
+tree_time :76048
