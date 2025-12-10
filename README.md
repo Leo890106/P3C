@@ -147,35 +147,7 @@ P3C-tree 有一個關鍵參數 `e`，用來決定 **靜態上半樹 (top-part)**
 
 ---
 
-## 6. 專案功能（示意）
-
-> 依實作語言與實際 class/檔案名稱調整。
-
-- **`PPCBuilder`**  
-  - 傳統 PPC-tree 建構與 N-list 生成（baseline）
-
-- **`P3CBuilder`**  
-  - P3C-tree 的 top-part 建構與 leaf subtree 迭代建構  
-  - 輸出 basic N-lists
-
-- **`SupportCounter`**  
-  - 使用 N-lists 計算任意 selector set 的 support  
-  - 範例介面：
-    - `countSupport(List<Selector> itemset)`
-    - `batchCount(List<List<Selector>> itemsets)`
-
-- **`MemoryRuntimeBenchmark`**  
-  - 量測 PPC vs. P3C 在不同資料集上的：
-    - peak memory usage  
-    - N-list 建構時間  
-
----
-
-## 7. 環境需求與建置方式（範例）
-
-> 依實際專案修改本段說明。
-
-### 7.1 環境需求
+## 6. 環境需求與建置方式
 
 - JDK 8+  
 - eclipse 下載後直接導入 
