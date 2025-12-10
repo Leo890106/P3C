@@ -156,10 +156,10 @@ P3C-tree 有一個關鍵參數 `e`，用來決定 **靜態上半樹 (top-part)**
 
 ## 7. 使用方式
 
-   -到 https://www.kaggle.com/competitions/avazu-ctr-prediction/data 下載我們實驗的資料集
-   -將要實驗的資料集檔案放到 data/input/ 底下
-   -執行zbenchmark底下的 InfoBaseBenchmarkMemoryPPCTree 以及 InfoBaseBenchmarkMemoryP3CTree 
-   -到output資料夾看執行結果
+   - 到 https://www.kaggle.com/competitions/avazu-ctr-prediction/data 下載我們實驗的資料集
+   - 將要實驗的資料集檔案放到 data/input/ 底下
+   - 執行zbenchmark底下的 InfoBaseBenchmarkMemoryPPCTree 以及 InfoBaseBenchmarkMemoryP3CTree 
+   - 到output資料夾看執行結果
 
 
  
